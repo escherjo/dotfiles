@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "svelte": {
+      "autoApprove": [],
+      "disabled_prompts": [],
+      "url": "https://mcp.svelte.dev/mcp"
+    }
+  }
+}
