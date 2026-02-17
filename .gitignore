@@ -1,0 +1,18 @@
+# Node / npm (nvim plugins like Mason, Copilot, etc.)
+node_modules/
+**/node_modules/
+
+# Neovim runtime artifacts
+nvim/.config/nvim/plugin/
+nvim/.config/nvim/lazy-lock.json
+
+# General OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Secrets / local overrides
+*.env
+.env.*
