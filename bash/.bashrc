@@ -27,3 +27,11 @@ unset rc
 
 # opencode
 export PATH=/home/jonasescher/.opencode/bin:$PATH
+
+# pnpm
+export PNPM_HOME="/home/jonasescher/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
